@@ -1,37 +1,28 @@
+
+/* IMAGENES DE FONDO DE LAS PAGINAS */
+
 .home {
     background-image: url(../img/inicio-bg.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 60vh;
-    background-attachment:scroll;
-    background-size: cover;
 }
 
 .about {
     background-image: url(../img/about-bg2.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 60vh;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .portfolio {
     background-image: url(../img/portfolio-bg.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 60vh;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .contact {
     background-image: url(../img/contact-bg.png);
-    background-repeat: no-repeat;
+}
+
+.imagen-fondo {
     background-position: center center;
     min-height: 60vh;
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .img-perfil {
@@ -46,6 +37,8 @@
     justify-content: center;
     min-height: 60vh;
 }
+
+/* FOOTER */
 
 .footer {
     grid-area: footer;
@@ -62,7 +55,7 @@
 
 .footer__texto {
     font-weight: 700;
-    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -71,7 +64,6 @@
 	display: flex;
 	list-style: none;
 	justify-content: center;
-    /* padding-top: 10px; */
 }
 
 .footer__icono {
@@ -96,10 +88,7 @@
     }
 }
 
-
-.skills {
-
-}
+/* CONOCIMIENTOS - MANEJO DE LOS ICONOS */
 
 .skills__container {
     display: flex;
@@ -113,16 +102,11 @@
 }
 
 .card__skills {
-
     margin: 20px 15px;
-
     padding: 20px 20px;
     max-height: 200px;
-
     border-radius: 5px;
-
     text-align: center;
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -136,7 +120,6 @@
 
 .skill__titulo {
     margin-top: 5px;
-
     font-size: 16px;
     color: #033F62;
 }
